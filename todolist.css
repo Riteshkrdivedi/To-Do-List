@@ -1,0 +1,150 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  color: aliceblue;
+  background-color: rgb(23, 22, 22);
+  /* font-family: Arial, Helvetica, sans-serif; */
+  /* font-family: 'Signika Negative', sans-serif; */
+  /* font-family: 'Signika Negative', sans-serif;font-family: 'Permanent Marker', cursive; */
+
+  font-family: "Kalam", cursive;
+}
+
+.container {
+  display: flex;
+  /* border: 2px solid red; */
+}
+
+.split1 {
+  background-color: rgb(23, 22, 22);
+  display: block;
+  width: 25%;
+  height: 55rem;
+}
+
+.split2 {
+  display: block;
+  background-image: url(bg7.jpg);
+  width: 85%;
+  height: 55rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* border: 2px solid red; */
+}
+
+.box1 {
+  display: flex;
+  margin: 10px;
+}
+
+.part2 {
+  /* border: 2px solid red; */
+  margin: 30px;
+}
+
+.part1 {
+  /* border: 2px solid white; */
+  display: block;
+  height: 80px;
+  clip-path: circle(50% at 50% 50%);
+}
+
+input[type="text"] {
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(52, 49, 49);
+  /* border: 1px solid whitesmoke; */
+  padding: 3px;
+  width: 80%;
+  height: 30px;
+}
+
+.box2 {
+  /* border: 2px solid red; */
+  padding-left: 20px;
+  outline: none;
+  /* border: 1px solid black; */
+}
+
+.box3 {
+  /* border: 2px solid blue; */
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  padding: 10px;
+  cursor: pointer;
+  /* border: 2px solid blue; */
+}
+
+/* #random-background {
+    background-image: url('');
+} */
+.box5 {
+  position: relative;
+  display: inline;
+  top: 10px;
+  left: 100px;
+}
+
+.part4 {
+  position: relative;
+  left: 900px;
+  display: flex;
+  cursor: pointer;
+}
+
+.box4 {
+  display: flex;
+}
+
+.icon {
+  padding: 15px;
+}
+.part3 {
+  padding: 10px;
+  margin-left: 10px;
+}
+#tasks {
+  /* border: 2px solid green; */
+  height: 40rem;
+}
+
+#tasks li {
+  /* border: 2px solid red; */
+  font-size: 20px;
+  list-style: none;
+  padding: 5px 10px 2px 100px;
+  cursor: pointer;
+  /* border: 2px solid #201e1ed4; */
+  width: 48rem;
+  /* border-radius: 50px; */
+}
+
+.checked {
+  color: rgba(145, 145, 145, 0.622);
+  text-decoration: line-through;
+}
+.Add {
+  background-color: transparent;
+  font-size: 20px;
+  position: relative;
+  right: 50px;
+  top: 3px;
+  border: none;
+  cursor: pointer;
+}
+#tasks li span {
+  position: absolute;
+  left: 73rem;
+  /* top: 138px; */
+  font-size: 40px;
+  line-height: 20px;
+  width: 40px;
+  height: 40px;
+}
+#tasks li span:hover {
+  color: red;
+}
